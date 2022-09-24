@@ -1,0 +1,31 @@
+﻿Nombre Piloto,Abreviacion,Escuderia,Piloto,Piloto de Reserva,Carreras,NoCarreras
+Jenson Button,BUT,McLaren-Mercedes,True,False,Todas,19
+Lewis Hamilton,HAM,McLaren-Mercedes,True,False,Todas,19
+Michael Schumacher,SCH,Mercedes,True,False,Todas,19
+Nico Rosberg,ROS,Mercedes,True,False,Todas,19
+Sebastian Vettel,VET,Red Bull-Renault,True,False,Todas,19
+Mark Webber,WEB,Red Bull-Renault,True,False,Todas,19
+Felipe Massa,MAS,Ferrari,True,False,Todas,19
+Fernando Alonso,ALO,Ferrari,True,False,Todas,19
+Rubens Barrichello,BAR,Williams-Cosworth,True,False,Todas,19
+Nico Hülkenberg,HUL,Williams-Cosworth,True,False,Todas,19
+Robert Kubica,KUB,Renault,True,False,Todas,19
+Vitaly Petrov,PET,Renault,True,False,Todas,19
+Adrian Sutil,SUT,Force India-Mercedes,True,False,Todas,19
+Paul di Resta,RES,Force India-Mercedes,False,True,Ninguna,0
+Vitantonio Liuzzi,LIU,Force India-Mercedes,True,False,Todas,19
+Sébastien Buemi,BUE,Toro Rosso-Ferrari,True,False,Todas,19
+Jaime Alguersuari,ALG,Toro Rosso-Ferrari,True,False,Todas,19
+Jarno Trulli,TRU,Lotus-Cosworth,True,False,Todas,19
+Fairuz Fauzy,FAU,Lotus-Cosworth,False,True,Ninguna,0
+Heikki Kovalainen,KOV,Lotus-Cosworth,True,False,Todas,19
+Karun Chandhok,CHA,HRT-Cosworth,True,False,1–10,10
+Christian Klien,KLI,HRT-Cosworth,True,True,15 | 18–19,3
+Sakon Yamamoto,YAM,HRT-Cosworth,True,True,10 |11–14 | 16–17,7
+Bruno Senna,SEN,HRT-Cosworth,True,False,1–9 | 11–19,18
+Pedro de la Rosa,DLR,BMW Sauber-Ferrari,True,False,1–14,14
+Nick Heidfeld,HEI,BMW Sauber-Ferrari,True,False,15–19,5
+Kamui Kobayashi,KOB,BMW Sauber-Ferrari,True,False,Todas,19
+Timo Glock,GLO,Virgin-Cosworth,True,False,Todas,19
+Jérôme d'Ambrosio,DAM,Virgin-Cosworth,False,True,Ninguna,0
+Lucas di Grassi,DIG,Virgin-Cosworth,True,False,Todas,19

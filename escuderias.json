@@ -1,0 +1,88 @@
+{
+    "escuderias": [
+        {
+            "Nombre": "Vodafone McLaren Mercedes",
+            "Escuderia": "McLaren-Mercedes",
+            "Chasis": "MP4-25",
+            "Motor": "Mercedes FO108X",
+            "Puntos": "454"
+        },
+        {
+            "Nombre": "Mercedes GP Petronas F1 Team",
+            "Escuderia": "Mercedes",
+            "Chasis": "MGPW01",
+            "Motor": "Mercedes FO108X",
+            "Puntos": "214"
+        },
+        {
+            "Nombre": "Red Bull Racing",
+            "Escuderia": "RedBull-Renault",
+            "Chasis": "RB6",
+            "Motor": "Renault RS27-2010",
+            "Puntos": "498"
+        },
+        {
+            "Nombre": "Scuderia Ferrari Marlboro",
+            "Escuderia": "Ferrari",
+            "Chasis": "F10",
+            "Motor": "Ferrari 056",
+            "Puntos": "396"
+        },
+        {
+            "Nombre": "AT&T Williams",
+            "Escuderia": "Williams-Cosworth",
+            "Chasis": "FW32",
+            "Motor": "Cosworth CA 2010",
+            "Puntos": "69"
+        },
+        {
+            "Nombre": "Renault F1 Team",
+            "Escuderia": "Renault",
+            "Chasis": "R30",
+            "Motor": "Renault RS27-2010",
+            "Puntos": "163"
+        },
+        {
+            "Nombre": "Force India F1 Team",
+            "Escuderia": "Force India-Mercedes",
+            "Chasis": "VJM03",
+            "Motor": "Mercedes FO108X",
+            "Puntos": "68"
+        },
+        {
+            "Nombre": "Scuderia Toro Rosso",
+            "Escuderia": "Toro Rosso-Ferrari",
+            "Chasis": "STR5",
+            "Motor": "Ferrari 056",
+            "Puntos": "13"
+        },
+        {
+            "Nombre": "Lotus Racing",
+            "Escuderia": "Lotus-Cosworth",
+            "Chasis": "T127",
+            "Motor": "Cosworth CA2010",
+            "Puntos": "0"
+        },
+        {
+            "Nombre": "Hispania Racing F1 Team",
+            "Escuderia": "HRT-Cosworth",
+            "Chasis": "F110",
+            "Motor": "Cosworth CA2010",
+            "Puntos": "0"
+        },
+        {
+            "Nombre": "BMW Sauber F1 Team",
+            "Escuderia": "BMW Sauber-Ferrari",
+            "Chasis": "C29",
+            "Motor": "Ferrari 056",
+            "Puntos": "44"
+        },
+        {
+            "Nombre": "Virgin Racing",
+            "Escuderia": "Virgin-Cosworth",
+            "Chasis": "VR-01",
+            "Motor": "Cosworth CA2010",
+            "Puntos": "0"
+        }
+    ]
+}

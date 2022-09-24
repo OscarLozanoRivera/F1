@@ -1,25 +1,65 @@
 .layout {
-    display: grid;
-    grid:
-      "header header header" auto
-      "leftSide body rightSide" auto
-      "footer footer footer" auto
-      / auto 1fr auto;
-    gap: 8px;
-  }
-  
-  .header { grid-area: header; 
-            text-align: center;}
-  .leftSide { grid-area: leftSide; }
-  .body { grid-area: body; }
-  .rightSide { grid-area: rightSide; }
-  .footer { grid-area: footer; }
+  display: grid;
+  grid:
+    "header header header" auto
+    "leftSide body rightSide" auto
+    "footer footer footer" auto;
+    
+ 
 
-.progress{
-  /*transition:  5s !important;*/
-  position: relative;
+}
+body{
+  background-image: url("Imagenes/mclarenAntiguo.jpg");
+  background-size: cover;
 }
 
- /* .progress-bar{
-  transition: width 5s !important;
-}  */
+
+
+@font-face {
+  font-family: formula1Regular;
+  src: url(Fuentes/Formula1-Regular.ttf);
+}
+@font-face {
+  font-family: formula1Bold;
+  src: url(Fuentes/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: formula1Black;
+  src: url(Fuentes/Formula1-Black.ttf);
+}
+@font-face {
+  font-family: formula1Wide;
+  src: url(Fuentes/Formula1-Wide.ttf);
+}
+*{
+  font-family: formula1Regular;
+}  
+
+
+  .header { grid-area: header; 
+            text-align: center;
+            background-color: rgb(225, 6, 0);
+            font-family: formula1Wide !important;
+            color: white;
+            font-style: italic;}
+  .leftSide { grid-area: leftSide;
+            
+}
+  .body { grid-area: body;
+    background-color: rgb(21, 21, 30);
+  }
+  .rightSide { grid-area: rightSide;
+            
+             }
+  .footer { grid-area: footer;}
+
+.botones{
+  color: aliceblue;
+}
+
+
+.progress{
+  position: relative;
+  height: 2rem !important;
+}
+

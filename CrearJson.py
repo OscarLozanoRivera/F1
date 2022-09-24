@@ -7,10 +7,7 @@ from tkinter import N
 data = {}
 data['Temporada'] = 2010
 data['PilotoCampeon'] = 2010
-data['EscuderiaCampeona'] = 2010
-data['NuConstructores'] = 2010
-data['NuPilotos'] = 2010
-data['NuCarreras'] = 27
+data['NuCarreras'] = 19
 data['pilotos'] = []
 data['carreras'] = []
 
@@ -37,6 +34,12 @@ dicCarreras= {
 }
 
 
+
+
+
+
+
+
 def verificarPiloto(posiciones, abre):
     for pil in posiciones:
         try:
@@ -46,6 +49,26 @@ def verificarPiloto(posiciones, abre):
         except KeyError:
             pass
     return False
+
+
+escuderia = ""
+nuEscuderias = 0
+puntosConst = 0
+
+with open('escuderias.json') as file:
+    dataj = json.load(file)
+    for const in dataj['escuderias']:
+        nuEscuderias+=1
+        if int(const['Puntos']) > puntosConst:
+            escuderia = const['Escuderia']
+            puntosConst = int(const['Puntos'])
+
+
+
+
+data['NuEscuderias'] = nuEscuderias
+data['EscuderiaCampeona'] = escuderia
+data['EscuderiaCampeonaPuntos'] = str(puntosConst)
 
 
 
@@ -85,17 +108,29 @@ for car in dicCarreras:
             'posiciones':posiciones})
     
 
-with open('posiciones.json') as file:
+nuPilotos = 0
+
+with open('pilotos.json') as file:
     dataj = json.load(file)
-    for col in dataj['pilotoPosiciones']:
+    for pil in dataj['pilotos']:
+        if pil['Piloto']=='True':
+            nuPilotos+=1
         data['pilotos'].append({
-            'nombre': col['Piloto'],
-            'nom':    col['Abreviacion'],
-            'edad':NULL,
-            'escuderia':NULL,
-            'descripcion':[]})
+            'nombre' : pil['Nombre Piloto'],
+            'nom': pil['Abreviacion'],
+            'escuderia' : pil['Escuderia'],
+            'numCarreras' : pil['NoCarreras']
+        })        
+
+
+        
+data['NuPilotos'] = nuPilotos
+
+
 with open('auto.json', 'w') as file:
     json.dump(data, file, indent=4)
 
 
 data = NULL
+
+

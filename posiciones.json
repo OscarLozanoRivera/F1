@@ -255,7 +255,7 @@
         },
         {
             "Piloto": "Kamui Kobayashi",
-            "Abreviacion": "KOV",
+            "Abreviacion": "KOB",
             "BHR": "Ret",
             "AUS": "Ret",
             "MYS": "Ret",
@@ -300,7 +300,7 @@
             "ABU": "6"
         },
         {
-            "Piloto": "Nico H\u00ef\u00bf\u00bdlkenberg",
+            "Piloto": "Nico H\u00fclkenberg",
             "Abreviacion": "HUL",
             "BHR": "14",
             "AUS": "Ret",
@@ -324,7 +324,7 @@
         },
         {
             "Piloto": "Vitantonio Liuzzi",
-            "Abreviacion": "LUI",
+            "Abreviacion": "LIU",
             "BHR": "9",
             "AUS": "7",
             "MYS": "Ret",
@@ -346,7 +346,7 @@
             "ABU": "Ret"
         },
         {
-            "Piloto": "S\u00ef\u00bf\u00bdbastien Buemi",
+            "Piloto": "S\u00e9bastien Buemi",
             "Abreviacion": "BUE",
             "BHR": "16",
             "AUS": "Ret",
@@ -439,7 +439,7 @@
         },
         {
             "Piloto": "Heikki Kovalainen",
-            "Abreviacion": "KOA",
+            "Abreviacion": "KOV",
             "BHR": "15",
             "AUS": "13",
             "MYS": "Ret",
@@ -531,7 +531,7 @@
         },
         {
             "Piloto": "Lucas di Grassi",
-            "Abreviacion": "GRA",
+            "Abreviacion": "DIG",
             "BHR": "Ret",
             "AUS": "Ret",
             "MYS": "14",
