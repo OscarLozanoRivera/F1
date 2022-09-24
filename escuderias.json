@@ -3,6 +3,8 @@
         {
             "Nombre": "Vodafone McLaren Mercedes",
             "Escuderia": "McLaren-Mercedes",
+            "EscuderiaAbre": "MCM",
+            "Colores": "#858585|#EA1112",
             "Chasis": "MP4-25",
             "Motor": "Mercedes FO108X",
             "Puntos": "454"
@@ -10,6 +12,8 @@
         {
             "Nombre": "Mercedes GP Petronas F1 Team",
             "Escuderia": "Mercedes",
+            "EscuderiaAbre": "MER",
+            "Colores": "#8E98A2|#FFFFFF",
             "Chasis": "MGPW01",
             "Motor": "Mercedes FO108X",
             "Puntos": "214"
@@ -17,6 +21,8 @@
         {
             "Nombre": "Red Bull Racing",
             "Escuderia": "RedBull-Renault",
+            "EscuderiaAbre": "RBR",
+            "Colores": "#1F2E88|#FF0C49",
             "Chasis": "RB6",
             "Motor": "Renault RS27-2010",
             "Puntos": "498"
@@ -24,6 +30,8 @@
         {
             "Nombre": "Scuderia Ferrari Marlboro",
             "Escuderia": "Ferrari",
+            "EscuderiaAbre": "FER",
+            "Colores": "#99250E|#FFFFFF",
             "Chasis": "F10",
             "Motor": "Ferrari 056",
             "Puntos": "396"
@@ -31,6 +39,8 @@
         {
             "Nombre": "AT&T Williams",
             "Escuderia": "Williams-Cosworth",
+            "EscuderiaAbre": "WIL",
+            "Colores": "#023A84|#FFFFFF",
             "Chasis": "FW32",
             "Motor": "Cosworth CA 2010",
             "Puntos": "69"
@@ -38,6 +48,8 @@
         {
             "Nombre": "Renault F1 Team",
             "Escuderia": "Renault",
+            "EscuderiaAbre": "REN",
+            "Colores": "#FFE734|#000000",
             "Chasis": "R30",
             "Motor": "Renault RS27-2010",
             "Puntos": "163"
@@ -45,6 +57,8 @@
         {
             "Nombre": "Force India F1 Team",
             "Escuderia": "Force India-Mercedes",
+            "EscuderiaAbre": "FOR",
+            "Colores": "#FF9734|#019D20|#FFFFFF",
             "Chasis": "VJM03",
             "Motor": "Mercedes FO108X",
             "Puntos": "68"
@@ -52,6 +66,8 @@
         {
             "Nombre": "Scuderia Toro Rosso",
             "Escuderia": "Toro Rosso-Ferrari",
+            "EscuderiaAbre": "TOR",
+            "Colores": "#0D1C3B|#EA5A3A",
             "Chasis": "STR5",
             "Motor": "Ferrari 056",
             "Puntos": "13"
@@ -59,6 +75,8 @@
         {
             "Nombre": "Lotus Racing",
             "Escuderia": "Lotus-Cosworth",
+            "EscuderiaAbre": "LOT",
+            "Colores": "#1E2C26|#D0C934",
             "Chasis": "T127",
             "Motor": "Cosworth CA2010",
             "Puntos": "0"
@@ -66,6 +84,8 @@
         {
             "Nombre": "Hispania Racing F1 Team",
             "Escuderia": "HRT-Cosworth",
+            "EscuderiaAbre": "HRT",
+            "Colores": "#48535B|#FE0002|#FFFFFF",
             "Chasis": "F110",
             "Motor": "Cosworth CA2010",
             "Puntos": "0"
@@ -73,6 +93,8 @@
         {
             "Nombre": "BMW Sauber F1 Team",
             "Escuderia": "BMW Sauber-Ferrari",
+            "EscuderiaAbre": "SAU",
+            "Colores": "#DA291C|#FFFFFF|#000000",
             "Chasis": "C29",
             "Motor": "Ferrari 056",
             "Puntos": "44"
@@ -80,6 +102,8 @@
         {
             "Nombre": "Virgin Racing",
             "Escuderia": "Virgin-Cosworth",
+            "EscuderiaAbre": "VIR",
+            "Colores": "#FD4916|#000000|#FFFFFF",
             "Chasis": "VR-01",
             "Motor": "Cosworth CA2010",
             "Puntos": "0"

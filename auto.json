@@ -6,182 +6,332 @@
         {
             "nombre": "Jenson Button",
             "nom": "BUT",
-            "escuderia": "McLaren-Mercedes",
+            "escuderia": "MCM",
             "numCarreras": "19"
         },
         {
             "nombre": "Lewis Hamilton",
             "nom": "HAM",
-            "escuderia": "McLaren-Mercedes",
+            "escuderia": "MCM",
             "numCarreras": "19"
         },
         {
             "nombre": "Michael Schumacher",
             "nom": "SCH",
-            "escuderia": "Mercedes",
+            "escuderia": "MER",
             "numCarreras": "19"
         },
         {
             "nombre": "Nico Rosberg",
             "nom": "ROS",
-            "escuderia": "Mercedes",
+            "escuderia": "MER",
             "numCarreras": "19"
         },
         {
             "nombre": "Sebastian Vettel",
             "nom": "VET",
-            "escuderia": "Red Bull-Renault",
+            "escuderia": "RBR",
             "numCarreras": "19"
         },
         {
             "nombre": "Mark Webber",
             "nom": "WEB",
-            "escuderia": "Red Bull-Renault",
+            "escuderia": "RBR",
             "numCarreras": "19"
         },
         {
             "nombre": "Felipe Massa",
             "nom": "MAS",
-            "escuderia": "Ferrari",
+            "escuderia": "FER",
             "numCarreras": "19"
         },
         {
             "nombre": "Fernando Alonso",
             "nom": "ALO",
-            "escuderia": "Ferrari",
+            "escuderia": "FER",
             "numCarreras": "19"
         },
         {
             "nombre": "Rubens Barrichello",
             "nom": "BAR",
-            "escuderia": "Williams-Cosworth",
+            "escuderia": "WIL",
             "numCarreras": "19"
         },
         {
             "nombre": "Nico H\u00fclkenberg",
             "nom": "HUL",
-            "escuderia": "Williams-Cosworth",
+            "escuderia": "WIL",
             "numCarreras": "19"
         },
         {
             "nombre": "Robert Kubica",
             "nom": "KUB",
-            "escuderia": "Renault",
+            "escuderia": "REN",
             "numCarreras": "19"
         },
         {
             "nombre": "Vitaly Petrov",
             "nom": "PET",
-            "escuderia": "Renault",
+            "escuderia": "REN",
             "numCarreras": "19"
         },
         {
             "nombre": "Adrian Sutil",
             "nom": "SUT",
-            "escuderia": "Force India-Mercedes",
+            "escuderia": "FOR",
             "numCarreras": "19"
         },
         {
             "nombre": "Paul di Resta",
             "nom": "RES",
-            "escuderia": "Force India-Mercedes",
+            "escuderia": "FOR",
             "numCarreras": "0"
         },
         {
             "nombre": "Vitantonio Liuzzi",
             "nom": "LIU",
-            "escuderia": "Force India-Mercedes",
+            "escuderia": "FOR",
             "numCarreras": "19"
         },
         {
             "nombre": "S\u00e9bastien Buemi",
             "nom": "BUE",
-            "escuderia": "Toro Rosso-Ferrari",
+            "escuderia": "TOR",
             "numCarreras": "19"
         },
         {
             "nombre": "Jaime Alguersuari",
             "nom": "ALG",
-            "escuderia": "Toro Rosso-Ferrari",
+            "escuderia": "TOR",
             "numCarreras": "19"
         },
         {
             "nombre": "Jarno Trulli",
             "nom": "TRU",
-            "escuderia": "Lotus-Cosworth",
+            "escuderia": "LOT",
             "numCarreras": "19"
         },
         {
             "nombre": "Fairuz Fauzy",
             "nom": "FAU",
-            "escuderia": "Lotus-Cosworth",
+            "escuderia": "LOT",
             "numCarreras": "0"
         },
         {
             "nombre": "Heikki Kovalainen",
             "nom": "KOV",
-            "escuderia": "Lotus-Cosworth",
+            "escuderia": "LOT",
             "numCarreras": "19"
         },
         {
             "nombre": "Karun Chandhok",
             "nom": "CHA",
-            "escuderia": "HRT-Cosworth",
+            "escuderia": "HRT",
             "numCarreras": "10"
         },
         {
             "nombre": "Christian Klien",
             "nom": "KLI",
-            "escuderia": "HRT-Cosworth",
+            "escuderia": "HRT",
             "numCarreras": "3"
         },
         {
             "nombre": "Sakon Yamamoto",
             "nom": "YAM",
-            "escuderia": "HRT-Cosworth",
+            "escuderia": "HRT",
             "numCarreras": "7"
         },
         {
             "nombre": "Bruno Senna",
             "nom": "SEN",
-            "escuderia": "HRT-Cosworth",
+            "escuderia": "HRT",
             "numCarreras": "18"
         },
         {
             "nombre": "Pedro de la Rosa",
             "nom": "DLR",
-            "escuderia": "BMW Sauber-Ferrari",
+            "escuderia": "SAU",
             "numCarreras": "14"
         },
         {
             "nombre": "Nick Heidfeld",
             "nom": "HEI",
-            "escuderia": "BMW Sauber-Ferrari",
+            "escuderia": "SAU",
             "numCarreras": "5"
         },
         {
             "nombre": "Kamui Kobayashi",
             "nom": "KOB",
-            "escuderia": "BMW Sauber-Ferrari",
+            "escuderia": "SAU",
             "numCarreras": "19"
         },
         {
             "nombre": "Timo Glock",
             "nom": "GLO",
-            "escuderia": "Virgin-Cosworth",
+            "escuderia": "VIR",
             "numCarreras": "19"
         },
         {
             "nombre": "J\u00e9r\u00f4me d'Ambrosio",
             "nom": "DAM",
-            "escuderia": "Virgin-Cosworth",
+            "escuderia": "VIR",
             "numCarreras": "0"
         },
         {
             "nombre": "Lucas di Grassi",
             "nom": "DIG",
-            "escuderia": "Virgin-Cosworth",
+            "escuderia": "VIR",
             "numCarreras": "19"
+        }
+    ],
+    "escuderias": [
+        {
+            "nombre": "Vodafone McLaren Mercedes",
+            "escuderia": "McLaren-Mercedes",
+            "EscuderiaAbre": "MCM",
+            "colores": [
+                "#858585",
+                "#EA1112"
+            ],
+            "chasis": "MP4-25",
+            "motor": "Mercedes FO108X",
+            "puntos": "454"
+        },
+        {
+            "nombre": "Mercedes GP Petronas F1 Team",
+            "escuderia": "Mercedes",
+            "EscuderiaAbre": "MER",
+            "colores": [
+                "#8E98A2",
+                "#FFFFFF"
+            ],
+            "chasis": "MGPW01",
+            "motor": "Mercedes FO108X",
+            "puntos": "214"
+        },
+        {
+            "nombre": "Red Bull Racing",
+            "escuderia": "RedBull-Renault",
+            "EscuderiaAbre": "RBR",
+            "colores": [
+                "#1F2E88",
+                "#FF0C49"
+            ],
+            "chasis": "RB6",
+            "motor": "Renault RS27-2010",
+            "puntos": "498"
+        },
+        {
+            "nombre": "Scuderia Ferrari Marlboro",
+            "escuderia": "Ferrari",
+            "EscuderiaAbre": "FER",
+            "colores": [
+                "#99250E",
+                "#FFFFFF"
+            ],
+            "chasis": "F10",
+            "motor": "Ferrari 056",
+            "puntos": "396"
+        },
+        {
+            "nombre": "AT&T Williams",
+            "escuderia": "Williams-Cosworth",
+            "EscuderiaAbre": "WIL",
+            "colores": [
+                "#023A84",
+                "#FFFFFF"
+            ],
+            "chasis": "FW32",
+            "motor": "Cosworth CA 2010",
+            "puntos": "69"
+        },
+        {
+            "nombre": "Renault F1 Team",
+            "escuderia": "Renault",
+            "EscuderiaAbre": "REN",
+            "colores": [
+                "#FFE734",
+                "#000000"
+            ],
+            "chasis": "R30",
+            "motor": "Renault RS27-2010",
+            "puntos": "163"
+        },
+        {
+            "nombre": "Force India F1 Team",
+            "escuderia": "Force India-Mercedes",
+            "EscuderiaAbre": "FOR",
+            "colores": [
+                "#FF9734",
+                "#019D20",
+                "#FFFFFF"
+            ],
+            "chasis": "VJM03",
+            "motor": "Mercedes FO108X",
+            "puntos": "68"
+        },
+        {
+            "nombre": "Scuderia Toro Rosso",
+            "escuderia": "Toro Rosso-Ferrari",
+            "EscuderiaAbre": "TOR",
+            "colores": [
+                "#0D1C3B",
+                "#EA5A3A"
+            ],
+            "chasis": "STR5",
+            "motor": "Ferrari 056",
+            "puntos": "13"
+        },
+        {
+            "nombre": "Lotus Racing",
+            "escuderia": "Lotus-Cosworth",
+            "EscuderiaAbre": "LOT",
+            "colores": [
+                "#1E2C26",
+                "#D0C934"
+            ],
+            "chasis": "T127",
+            "motor": "Cosworth CA2010",
+            "puntos": "0"
+        },
+        {
+            "nombre": "Hispania Racing F1 Team",
+            "escuderia": "HRT-Cosworth",
+            "EscuderiaAbre": "HRT",
+            "colores": [
+                "#48535B",
+                "#FE0002",
+                "#FFFFFF"
+            ],
+            "chasis": "F110",
+            "motor": "Cosworth CA2010",
+            "puntos": "0"
+        },
+        {
+            "nombre": "BMW Sauber F1 Team",
+            "escuderia": "BMW Sauber-Ferrari",
+            "EscuderiaAbre": "SAU",
+            "colores": [
+                "#DA291C",
+                "#FFFFFF",
+                "#000000"
+            ],
+            "chasis": "C29",
+            "motor": "Ferrari 056",
+            "puntos": "44"
+        },
+        {
+            "nombre": "Virgin Racing",
+            "escuderia": "Virgin-Cosworth",
+            "EscuderiaAbre": "VIR",
+            "colores": [
+                "#FD4916",
+                "#000000",
+                "#FFFFFF"
+            ],
+            "chasis": "VR-01",
+            "motor": "Cosworth CA2010",
+            "puntos": "0"
         }
     ],
     "carreras": [

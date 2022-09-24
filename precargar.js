@@ -21,19 +21,20 @@ const jsondata = null
     const boton = document.createElement("button");
     boton.type = "button" 
     boton.classList.add("btn","btn-danger","btn-xxl","ml-1")
-    boton.setAttribute("onclick","cargar(0)") 
+    boton.setAttribute("onclick","reiniciar()") 
     boton.textContent = "Reiniciar"
     botonesDiv.appendChild(boton) 
 
     cargar(0)
     
-
-
-
-
+  
 
     });
 
+function reiniciar(){
+  cargar(0)
+  toogle()
+}
 
 function toogle(){
   //console.log(this.id)
@@ -44,6 +45,9 @@ function toogle(){
       boton.classList.add('bg-info')
     }
  });
- this.classList.add('bg-success')
- this.classList.remove('bg-info')
+ if (this.classList){
+  this.classList.add('bg-success')
+  this.classList.remove('bg-info')
+ }
+ 
 }

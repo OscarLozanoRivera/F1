@@ -3,7 +3,7 @@
         {
             "Nombre Piloto": "Jenson Button",
             "Abreviacion": "BUT",
-            "Escuderia": "McLaren-Mercedes",
+            "Escuderia": "MCM",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -12,7 +12,7 @@
         {
             "Nombre Piloto": "Lewis Hamilton",
             "Abreviacion": "HAM",
-            "Escuderia": "McLaren-Mercedes",
+            "Escuderia": "MCM",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -21,7 +21,7 @@
         {
             "Nombre Piloto": "Michael Schumacher",
             "Abreviacion": "SCH",
-            "Escuderia": "Mercedes",
+            "Escuderia": "MER",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -30,7 +30,7 @@
         {
             "Nombre Piloto": "Nico Rosberg",
             "Abreviacion": "ROS",
-            "Escuderia": "Mercedes",
+            "Escuderia": "MER",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -39,7 +39,7 @@
         {
             "Nombre Piloto": "Sebastian Vettel",
             "Abreviacion": "VET",
-            "Escuderia": "Red Bull-Renault",
+            "Escuderia": "RBR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -48,7 +48,7 @@
         {
             "Nombre Piloto": "Mark Webber",
             "Abreviacion": "WEB",
-            "Escuderia": "Red Bull-Renault",
+            "Escuderia": "RBR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -57,7 +57,7 @@
         {
             "Nombre Piloto": "Felipe Massa",
             "Abreviacion": "MAS",
-            "Escuderia": "Ferrari",
+            "Escuderia": "FER",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -66,7 +66,7 @@
         {
             "Nombre Piloto": "Fernando Alonso",
             "Abreviacion": "ALO",
-            "Escuderia": "Ferrari",
+            "Escuderia": "FER",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -75,7 +75,7 @@
         {
             "Nombre Piloto": "Rubens Barrichello",
             "Abreviacion": "BAR",
-            "Escuderia": "Williams-Cosworth",
+            "Escuderia": "WIL",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -84,7 +84,7 @@
         {
             "Nombre Piloto": "Nico H\u00fclkenberg",
             "Abreviacion": "HUL",
-            "Escuderia": "Williams-Cosworth",
+            "Escuderia": "WIL",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -93,7 +93,7 @@
         {
             "Nombre Piloto": "Robert Kubica",
             "Abreviacion": "KUB",
-            "Escuderia": "Renault",
+            "Escuderia": "REN",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -102,7 +102,7 @@
         {
             "Nombre Piloto": "Vitaly Petrov",
             "Abreviacion": "PET",
-            "Escuderia": "Renault",
+            "Escuderia": "REN",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -111,7 +111,7 @@
         {
             "Nombre Piloto": "Adrian Sutil",
             "Abreviacion": "SUT",
-            "Escuderia": "Force India-Mercedes",
+            "Escuderia": "FOR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -120,7 +120,7 @@
         {
             "Nombre Piloto": "Paul di Resta",
             "Abreviacion": "RES",
-            "Escuderia": "Force India-Mercedes",
+            "Escuderia": "FOR",
             "Piloto": "False",
             "Piloto de Reserva": "True",
             "Carreras": "Ninguna",
@@ -129,7 +129,7 @@
         {
             "Nombre Piloto": "Vitantonio Liuzzi",
             "Abreviacion": "LIU",
-            "Escuderia": "Force India-Mercedes",
+            "Escuderia": "FOR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -138,7 +138,7 @@
         {
             "Nombre Piloto": "S\u00e9bastien Buemi",
             "Abreviacion": "BUE",
-            "Escuderia": "Toro Rosso-Ferrari",
+            "Escuderia": "TOR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -147,7 +147,7 @@
         {
             "Nombre Piloto": "Jaime Alguersuari",
             "Abreviacion": "ALG",
-            "Escuderia": "Toro Rosso-Ferrari",
+            "Escuderia": "TOR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -156,7 +156,7 @@
         {
             "Nombre Piloto": "Jarno Trulli",
             "Abreviacion": "TRU",
-            "Escuderia": "Lotus-Cosworth",
+            "Escuderia": "LOT",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -165,7 +165,7 @@
         {
             "Nombre Piloto": "Fairuz Fauzy",
             "Abreviacion": "FAU",
-            "Escuderia": "Lotus-Cosworth",
+            "Escuderia": "LOT",
             "Piloto": "False",
             "Piloto de Reserva": "True",
             "Carreras": "Ninguna",
@@ -174,7 +174,7 @@
         {
             "Nombre Piloto": "Heikki Kovalainen",
             "Abreviacion": "KOV",
-            "Escuderia": "Lotus-Cosworth",
+            "Escuderia": "LOT",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -183,7 +183,7 @@
         {
             "Nombre Piloto": "Karun Chandhok",
             "Abreviacion": "CHA",
-            "Escuderia": "HRT-Cosworth",
+            "Escuderia": "HRT",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "1\u201310",
@@ -192,7 +192,7 @@
         {
             "Nombre Piloto": "Christian Klien",
             "Abreviacion": "KLI",
-            "Escuderia": "HRT-Cosworth",
+            "Escuderia": "HRT",
             "Piloto": "True",
             "Piloto de Reserva": "True",
             "Carreras": "15 | 18\u201319",
@@ -201,7 +201,7 @@
         {
             "Nombre Piloto": "Sakon Yamamoto",
             "Abreviacion": "YAM",
-            "Escuderia": "HRT-Cosworth",
+            "Escuderia": "HRT",
             "Piloto": "True",
             "Piloto de Reserva": "True",
             "Carreras": "10 |11\u201314 | 16\u201317",
@@ -210,7 +210,7 @@
         {
             "Nombre Piloto": "Bruno Senna",
             "Abreviacion": "SEN",
-            "Escuderia": "HRT-Cosworth",
+            "Escuderia": "HRT",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "1\u20139 | 11\u201319",
@@ -219,7 +219,7 @@
         {
             "Nombre Piloto": "Pedro de la Rosa",
             "Abreviacion": "DLR",
-            "Escuderia": "BMW Sauber-Ferrari",
+            "Escuderia": "SAU",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "1\u201314",
@@ -228,7 +228,7 @@
         {
             "Nombre Piloto": "Nick Heidfeld",
             "Abreviacion": "HEI",
-            "Escuderia": "BMW Sauber-Ferrari",
+            "Escuderia": "SAU",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "15\u201319",
@@ -237,7 +237,7 @@
         {
             "Nombre Piloto": "Kamui Kobayashi",
             "Abreviacion": "KOB",
-            "Escuderia": "BMW Sauber-Ferrari",
+            "Escuderia": "SAU",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -246,7 +246,7 @@
         {
             "Nombre Piloto": "Timo Glock",
             "Abreviacion": "GLO",
-            "Escuderia": "Virgin-Cosworth",
+            "Escuderia": "VIR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",
@@ -255,7 +255,7 @@
         {
             "Nombre Piloto": "J\u00e9r\u00f4me d'Ambrosio",
             "Abreviacion": "DAM",
-            "Escuderia": "Virgin-Cosworth",
+            "Escuderia": "VIR",
             "Piloto": "False",
             "Piloto de Reserva": "True",
             "Carreras": "Ninguna",
@@ -264,7 +264,7 @@
         {
             "Nombre Piloto": "Lucas di Grassi",
             "Abreviacion": "DIG",
-            "Escuderia": "Virgin-Cosworth",
+            "Escuderia": "VIR",
             "Piloto": "True",
             "Piloto de Reserva": "False",
             "Carreras": "Todas",

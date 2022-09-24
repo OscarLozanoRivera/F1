@@ -7,8 +7,7 @@ async function cargar(id){
   .then(jsondata => {
     const pilotos = jsondata.pilotos
 
-      if (id==0){   //Reiniciar
-                    //Borrar e imprimir
+      if (id==0){   //Inicio
         Object.values(pilotos).forEach(piloto => {
           
           if (parseInt(piloto['numCarreras']) > 0 ){
@@ -19,15 +18,15 @@ async function cargar(id){
               divProgress.id= piloto['nom']
               const divBar = document.createElement("div");
               const divImg = document.createElement("div");
-              divImg.classList.add("progress-bar","bg-warning") 
+              divImg.classList.add("progress-bar",piloto['escuderia']+"P","imgCoche"+piloto['escuderia']) 
               const imagen = document.createElement("img");
-              imagen.src= 'Imagenes/f1-car-vectors.jpg'
-              divImg.style = "width: 5%;margin-left: 2rem !important;"
-              divBar.classList.add("progress-bar","bg-primary") 
+              imagen.src= 'Imagenes/f1-sinFondo.png'
+              divImg.style = "width: 15%;"
+              divBar.classList.add("progress-bar",piloto['escuderia']+"P") 
               divBar.ariaValueMin = "0"
-              divProgress.classList.add("progress", "mb-2","bg-warning") 
-              divBar.textContent = piloto['nom']
-              divBar.style = "width: 0%;"
+              divProgress.classList.add("progress", "mb-2",piloto['escuderia']) 
+              divBar.textContent = piloto['nom'] + "| 0"
+              divBar.style = "width: 0%"              
               divProgress.appendChild(divBar)
               divImg.appendChild(imagen)
               divProgress.appendChild(divImg)
@@ -37,11 +36,14 @@ async function cargar(id){
               divPiloto.childNodes[0].style = "width : 0%;"
               divPiloto.childNodes[0].ariaValueMax = 100
               divPiloto.childNodes[0].ariaValueNow = 0
+              const divBar = document.createElement("div")
+              divBar.textContent = piloto['nom'] + "| 0"
             }
+           
           }
           
         });
-    
+        colores(jsondata.escuderias)
       }
       else{
         const carrera = jsondata.carreras[id-1]
@@ -56,8 +58,9 @@ async function cargar(id){
           const divPiloto = document.getElementById(posicion[Object.keys(posicion)[0]][0])//Piloto
           const divProgress = divPiloto.childNodes
           //console.log(divProgress)
-          porcentaje = posicion[Object.keys(posicion)[0]][1]/maxPuntosInt *90     //Puntos/25*100
+          porcentaje = posicion[Object.keys(posicion)[0]][1]/(maxPuntosInt*((parseInt(jsondata.NuCarreras)+1)/parseInt(id))) *90     //Puntos/25*100
           divProgress[0].setAttribute("style","width: "+ porcentaje +"%;")
+          divProgress[0].textContent = posicion[Object.keys(posicion)[0]][0] + " | "+ posicion[Object.keys(posicion)[0]][1] 
           divProgress[0].ariaValueMax = maxPuntos
           let index = 0 
           for ( index = 0; index < pilotosOrden.length; index++) {
@@ -74,7 +77,7 @@ async function cargar(id){
           if (index!=0){
             abajo = $('#'+pilotosOrden[index-1][0])
           }
-          console.log( arriba[0] , divs[index])
+          //console.log( arriba[0] , divs[index])
           arriba.animate({
             
             top : -arriba[0].offsetTop + divs[index].offsetTop
@@ -90,13 +93,37 @@ async function cargar(id){
           })          
         }
       }
+      
     }
   )
   
 ;}
 
 
+function colores(escuderias){
+  Object.values(escuderias).forEach(escuderia=> {
+    const divsEscuderia = document.getElementsByClassName(escuderia['EscuderiaAbre'])
+    var style = document.createElement('style');
+    if (escuderia['colores'][1]=='#FFFFFF'){
+      style.innerHTML = '.'+escuderia['EscuderiaAbre']+'{ background-color:'+escuderia['colores'][1]+';}'+
+                      '.'+escuderia['EscuderiaAbre']+'P'+'{ background-color:'+escuderia['colores'][0]+';color:black;}'+
+                      '.imgCoche'+escuderia['EscuderiaAbre']+'{border-left: 3.5rem solid '+escuderia['colores'][0 ]+';z-index: 1;}'
 
+    }
+    else{
+      style.innerHTML = '.'+escuderia['EscuderiaAbre']+'{ background-color:'+escuderia['colores'][1]+';}'+
+      '.'+escuderia['EscuderiaAbre']+'P'+'{ background-color:'+escuderia['colores'][0]+';}'+
+      '.imgCoche'+escuderia['EscuderiaAbre']+'{border-left: 3.5rem solid '+escuderia['colores'][0]+';z-index: 1;}'
+    }
+
+    
+
+    
+                        
+    document.getElementsByTagName('head')[0].appendChild(style);
+
+  });
+}
 
 
 //$('#div1').insertAfter('#div3');      //Mover Divs

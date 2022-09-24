@@ -1,14 +1,11 @@
 from asyncio.windows_events import NULL
-import csv
 import json
-from operator import truediv
-from tkinter import N
-
 data = {}
 data['Temporada'] = 2010
 data['PilotoCampeon'] = 2010
 data['NuCarreras'] = 19
 data['pilotos'] = []
+data['escuderias'] = []
 data['carreras'] = []
 
 dicCarreras= {
@@ -59,9 +56,21 @@ with open('escuderias.json') as file:
     dataj = json.load(file)
     for const in dataj['escuderias']:
         nuEscuderias+=1
+        print(const['Puntos'])
         if int(const['Puntos']) > puntosConst:
             escuderia = const['Escuderia']
             puntosConst = int(const['Puntos'])
+        colores = const['Colores'].split("|")
+        data['escuderias'].append({
+            'nombre': const['Nombre'],
+            'escuderia': const['Escuderia'],
+            'EscuderiaAbre': const['EscuderiaAbre'],
+            'colores': colores,
+            'chasis': const['Chasis'],
+            'motor': const['Motor'],
+            'puntos': const['Puntos']
+            })
+
 
 
 

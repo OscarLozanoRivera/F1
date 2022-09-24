@@ -47,6 +47,8 @@ body{
 }
   .body { grid-area: body;
     background-color: rgb(21, 21, 30);
+    border-top: 1.5rem solid rgb(21, 21, 30);
+    border-bottom: 8rem solid rgb(21, 21, 30);
   }
   .rightSide { grid-area: rightSide;
             
@@ -60,6 +62,16 @@ body{
 
 .progress{
   position: relative;
-  height: 2rem !important;
+  height: 3rem !important;
 }
+/* .progress-bar{
+  text-align: right !important;
+} */
 
+
+.progress {
+  z-index: 2;
+}
+.progress-bar {
+  z-index: 3;
+}

@@ -1,13 +1,13 @@
-﻿Nombre,Escuderia,Chasis,Motor,Puntos
-Vodafone McLaren Mercedes,McLaren-Mercedes,MP4-25,Mercedes FO108X,454
-Mercedes GP Petronas F1 Team,Mercedes,MGPW01,Mercedes FO108X,214
-Red Bull Racing,RedBull-Renault,RB6,Renault RS27-2010,498
-Scuderia Ferrari Marlboro,Ferrari,F10,Ferrari 056,396
-AT&T Williams,Williams-Cosworth,FW32,Cosworth CA 2010,69
-Renault F1 Team,Renault,R30,Renault RS27-2010,163
-Force India F1 Team,Force India-Mercedes,VJM03,Mercedes FO108X,68
-Scuderia Toro Rosso,Toro Rosso-Ferrari,STR5,Ferrari 056,13
-Lotus Racing,Lotus-Cosworth,T127,Cosworth CA2010,0
-Hispania Racing F1 Team,HRT-Cosworth,F110,Cosworth CA2010,0
-BMW Sauber F1 Team,BMW Sauber-Ferrari,C29,Ferrari 056,44
-Virgin Racing,Virgin-Cosworth,VR-01,Cosworth CA2010,0
+﻿Nombre,Escuderia,EscuderiaAbre,Colores,Chasis,Motor,Puntos
+Vodafone McLaren Mercedes,McLaren-Mercedes,MCM,#858585|#EA1112,MP4-25,Mercedes FO108X,454
+Mercedes GP Petronas F1 Team,Mercedes,MER,#8E98A2|#FFFFFF,MGPW01,Mercedes FO108X,214
+Red Bull Racing,RedBull-Renault,RBR,#1F2E88|#FF0C49,RB6,Renault RS27-2010,498
+Scuderia Ferrari Marlboro,Ferrari,FER,#99250E|#FFFFFF,F10,Ferrari 056,396
+AT&T Williams,Williams-Cosworth,WIL,#023A84|#FFFFFF,FW32,Cosworth CA 2010,69
+Renault F1 Team,Renault,REN,#FFE734|#000000,R30,Renault RS27-2010,163
+Force India F1 Team,Force India-Mercedes,FOR,#FF9734|#019D20|#FFFFFF,VJM03,Mercedes FO108X,68
+Scuderia Toro Rosso,Toro Rosso-Ferrari,TOR,#0D1C3B|#EA5A3A,STR5,Ferrari 056,13
+Lotus Racing,Lotus-Cosworth,LOT,#1E2C26|#D0C934,T127,Cosworth CA2010,0
+Hispania Racing F1 Team,HRT-Cosworth,HRT,#48535B|#FE0002|#FFFFFF,F110,Cosworth CA2010,0
+BMW Sauber F1 Team,BMW Sauber-Ferrari,SAU,#DA291C|#FFFFFF|#000000,C29,Ferrari 056,44
+Virgin Racing,Virgin-Cosworth,VIR,#FD4916|#000000|#FFFFFF,VR-01,Cosworth CA2010,0
