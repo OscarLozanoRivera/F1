@@ -2,6 +2,7 @@ from asyncio.windows_events import NULL
 import csv
 import json
 from operator import truediv
+from tkinter import N
 
 data = {}
 data['Temporada'] = 2010
@@ -52,7 +53,8 @@ for car in dicCarreras:
     posiciones = []
     retirados = []
     nc = []
-
+    lider = []
+    pilotoLider = NULL
     with open('posiciones.json') as file:
         dataj = json.load(file)
         pilotosanalizados= 0
@@ -62,9 +64,12 @@ for car in dicCarreras:
                 dataj2 = json.load(file2)     
                 for piloto in dataj2['pilotoPuntos']:
                     if piloto['Abreviacion'] == col ['Abreviacion']:
+                        if pilotoLider==NULL or int(pilotoLider[car]) < int (piloto[car]):
+                            pilotoLider = piloto 
                         posiciones.append({
                             col[car] : [piloto['Abreviacion'],piloto[car]]    #Falta posición en el mundial
                             })        
+                lider = [pilotoLider['Abreviacion'],pilotoLider[car]]
         pilotosanalizados+1
         if pilotosanalizados == 28:
             break
@@ -74,6 +79,7 @@ for car in dicCarreras:
             'nombre': "Gran Premio de "+dicCarreras[car][1],
             'abreviacion': car,
             'lugar': dicCarreras[car][1],
+            'lider' : lider,
             'pole':NULL,
             'vueltaR':["Vet","1.3.2"],
             'posiciones':posiciones})

@@ -2,7 +2,7 @@
     display: grid;
     grid:
       "header header header" auto
-      "leftSide body rightSide" 1fr
+      "leftSide body rightSide" auto
       "footer footer footer" auto
       / auto 1fr auto;
     gap: 8px;
@@ -14,3 +14,12 @@
   .body { grid-area: body; }
   .rightSide { grid-area: rightSide; }
   .footer { grid-area: footer; }
+
+.progress{
+  /*transition:  5s !important;*/
+  position: relative;
+}
+
+ /* .progress-bar{
+  transition: width 5s !important;
+}  */

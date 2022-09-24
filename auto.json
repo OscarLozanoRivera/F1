@@ -202,6 +202,10 @@
             "nombre": "Gran Premio de Bahrein",
             "abreviacion": "BHR",
             "lugar": "Bahrein",
+            "lider": [
+                "ALO",
+                "25"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -377,6 +381,10 @@
             "nombre": "Gran Premio de Australia",
             "abreviacion": "AUS",
             "lugar": "Australia",
+            "lider": [
+                "ALO",
+                "37"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -552,6 +560,10 @@
             "nombre": "Gran Premio de Malasya",
             "abreviacion": "MYS",
             "lugar": "Malasya",
+            "lider": [
+                "MAS",
+                "39"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -727,6 +739,10 @@
             "nombre": "Gran Premio de China",
             "abreviacion": "CHN",
             "lugar": "China",
+            "lider": [
+                "BUT",
+                "60"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -902,6 +918,10 @@
             "nombre": "Gran Premio de Espa\u00f1a",
             "abreviacion": "ESP",
             "lugar": "Espa\u00f1a",
+            "lider": [
+                "BUT",
+                "70"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -1077,6 +1097,10 @@
             "nombre": "Gran Premio de M\u00f3naco",
             "abreviacion": "MON",
             "lugar": "M\u00f3naco",
+            "lider": [
+                "VET",
+                "78"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -1252,6 +1276,10 @@
             "nombre": "Gran Premio de Turq\u00eda",
             "abreviacion": "TUR",
             "lugar": "Turq\u00eda",
+            "lider": [
+                "WEB",
+                "93"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -1427,6 +1455,10 @@
             "nombre": "Gran Premio de Canad\u00e1",
             "abreviacion": "CAN",
             "lugar": "Canad\u00e1",
+            "lider": [
+                "HAM",
+                "109"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -1602,6 +1634,10 @@
             "nombre": "Gran Premio de Europa",
             "abreviacion": "EUR",
             "lugar": "Europa",
+            "lider": [
+                "HAM",
+                "127"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -1777,6 +1813,10 @@
             "nombre": "Gran Premio de Gran Breta\u00f1a",
             "abreviacion": "GBR",
             "lugar": "Gran Breta\u00f1a",
+            "lider": [
+                "HAM",
+                "145"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -1952,6 +1992,10 @@
             "nombre": "Gran Premio de Alemania",
             "abreviacion": "GER",
             "lugar": "Alemania",
+            "lider": [
+                "HAM",
+                "157"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -2127,6 +2171,10 @@
             "nombre": "Gran Premio de Hungr\u00eda",
             "abreviacion": "HUN",
             "lugar": "Hungr\u00eda",
+            "lider": [
+                "WEB",
+                "161"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -2302,6 +2350,10 @@
             "nombre": "Gran Premio de B\u00e9lgica",
             "abreviacion": "BEL",
             "lugar": "B\u00e9lgica",
+            "lider": [
+                "HAM",
+                "182"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -2477,6 +2529,10 @@
             "nombre": "Gran Premio de Italia",
             "abreviacion": "ITA",
             "lugar": "Italia",
+            "lider": [
+                "WEB",
+                "187"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -2652,6 +2708,10 @@
             "nombre": "Gran Premio de Singapur",
             "abreviacion": "SIN",
             "lugar": "Singapur",
+            "lider": [
+                "WEB",
+                "202"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -2827,6 +2887,10 @@
             "nombre": "Gran Premio de Jap\u00f3n",
             "abreviacion": "JPN",
             "lugar": "Jap\u00f3n",
+            "lider": [
+                "WEB",
+                "220"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -3002,6 +3066,10 @@
             "nombre": "Gran Premio de Corea del Sur",
             "abreviacion": "RCO",
             "lugar": "Corea del Sur",
+            "lider": [
+                "ALO",
+                "231"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -3177,6 +3245,10 @@
             "nombre": "Gran Premio de Brasil",
             "abreviacion": "BRA",
             "lugar": "Brasil",
+            "lider": [
+                "ALO",
+                "246"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
@@ -3352,6 +3424,10 @@
             "nombre": "Gran Premio de Abu Dabi",
             "abreviacion": "ABU",
             "lugar": "Abu Dabi",
+            "lider": [
+                "VET",
+                "256"
+            ],
             "pole": 0,
             "vueltaR": [
                 "Vet",
